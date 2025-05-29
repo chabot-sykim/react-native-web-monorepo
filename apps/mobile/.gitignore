@@ -1,0 +1,50 @@
+# Node modules (monorepo root and each package)
+node_modules/
+**/node_modules/
+
+# pnpm state files
+.pnpm-debug.log
+.pnpm-store/
+.pnpm/
+
+# Lockfile (optional to ignore, but often committed)
+# pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Next.js / other web frameworks
+.next/
+out/
+**/.next/
+**/out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# IDEs & system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Coverage
+coverage/
+**/coverage/
+
+# Optional: Ignore local dev tools
+*.local.*
+*.cache/

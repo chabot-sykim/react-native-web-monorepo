@@ -1,0 +1,10 @@
+{
+  "name": "ui",
+  "main": "src/Card.tsx",
+  "types": "src/Card.tsx",
+  "dependencies": {
+    "react": "*",
+    "react-native": "*",
+    "nativewind": "^4.1.23"
+  }
+}
